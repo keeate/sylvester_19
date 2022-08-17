@@ -1,0 +1,170 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ====================================== */
+#button {
+    position: fixed;
+    bottom: 100px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    z-index: 99999999999;
+}
+#button button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'HeirofLightregular';
+    width: 100px;
+    cursor: pointer; 
+}
+#button button:hover {
+    color:#000;
+    background-color: white;
+}
+html, body {
+position: relative;
+height: 100%;}
+
+body {
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+margin: 0;
+padding: 0;
+background: url("second_bg2.png");
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+}
+
+.swiper {
+width: 1920px;
+height: 100%;
+}
+
+.swiper-slide {
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+
+.mySwiper{
+    background: url("second_bg2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.swiper-slide {
+    height: 100%;
+}
+.main {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    z-index: -12;
+}
+.main img {
+    width: 800px;
+    position: relative;
+    bottom: -80px;
+    left: 300px;
+}
+.main .text {
+    color: white;
+    width: fit-content;
+    position: absolute;
+    top: 100px;
+    left: 520px;
+    z-index: 9999;
+}
+.main .text h2 {
+    font-size: 30px;
+    font-family: 'HeirofLightRegular';
+    margin-left: 160px;
+    line-height: 30px;
+}
+.main .text h1 {
+    font-size: 76px;
+    font-family: 'HeirofLightBold';
+    line-height: 76px;
+}
+.main .text h3 {
+    font-size: 18px;
+    font-family: 'HeirofLightRegular';
+    line-height: 76px;
+}
+.main .text button {
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: 'HeirofLightRegular';
+    width: 100px;
+    margin-top: 30px;
+}
+.main .text button:hover {
+    color: #000;
+    background-color: white;
+}
+
+/* ====================================== */
+.section_visual{
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.section_visual h1{
+    font-size: 40px;
+    font-family: 'HeirofLightBold';
+    line-height: 40px;
+    color: white;
+    width: fit-content;
+    margin-right: 60px;
+}
+.wrap{
+    width: 1000px;
+    padding: 100px;
+    margin: auto 0;
+    color: rgb(206, 206, 206);
+    display: flex;
+}
+.section_visual p {
+    width: 800px;
+}
